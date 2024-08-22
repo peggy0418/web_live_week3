@@ -21,10 +21,12 @@ img{
     background-color: #AA0601;
 }
 .container{
+    max-width: 1320px;
     padding: 0 12px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .imgContainer{
     width: 80px;
