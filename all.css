@@ -2,13 +2,14 @@
 body{
     line-height: 1.5;
     font-family: serif;
+    font-family: "Noto Sans TC","roboto",serif;
 }
 a{
     display: block;
     text-decoration: none;
 }
 img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
@@ -20,10 +21,12 @@ img{
     background-color: #AA0601;
 }
 .container{
+    max-width: 1320px;
     padding: 0 12px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .imgContainer{
     width: 80px;
@@ -32,7 +35,10 @@ img{
 .nav{
     display: flex;
     list-style-type: none;
+    column-gap:30px;
+    padding: 25px 0;
 }
 .nav a{
     font-size: 20px;
-
+    color: #FFFFFF;
+}
