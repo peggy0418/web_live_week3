@@ -2,6 +2,7 @@
 body{
     line-height: 1.5;
     font-family: serif;
+    font-family: "Noto Sans TC","roboto",serif;
 }
 a{
     display: block;
@@ -32,7 +33,10 @@ img{
 .nav{
     display: flex;
     list-style-type: none;
+    column-gap:30px;
+    padding: 25px 0;
 }
 .nav a{
     font-size: 20px;
-
+    color: #FFFFFF;
+}
